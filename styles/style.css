@@ -1,0 +1,46 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    width: 500px;
+    margin: 80px auto 20px;
+    border: 1px solid lightblue;
+    display: flex;
+    align-items: center;
+    background-color: skyblue;
+    padding: 20px 40px;
+    border-bottom: 10px solid rgb(193, 191, 191);
+}
+
+.card .profile-picture img {
+    width: 160px;
+}
+
+.card .content {
+    text-align: center;
+    margin-left: 35px;
+}
+
+.card .content h3, p {
+    margin-bottom: 15px;
+}
+
+.card .content h3 {
+    font-size: 1.6vw;
+}
+
+.card .content h4 {
+    font-size: 1.3vw;
+}
+
+.card .content p {
+    font-size: 1.1vw;
+}
